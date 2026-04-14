@@ -1,0 +1,16 @@
+5012,Scottie Scheffler,-4,2,1
+5341,Rory McIlroy,-4,2,1
+5897,Jon Rahm,3,2,1
+5120,Tiger Woods,9,2,0
+5201,Brooks Koepka,-1,2,1
+5305,Jordan Spieth,0,2,1
+5442,Patrick Cantlay,2,2,1
+5550,Hideki Matsuyama,-3,2,1
+6101,Bryson DeChambeau,-1,2,1
+6112,Xander Schauffele,-3,2,1
+6123,Collin Morikawa,1,2,1
+6134,Viktor Hovland,4,2,0
+6145,Matt Fitzpatrick,2,2,1
+6156,Shane Lowry,0,2,1
+6167,Tommy Fleetwood,-2,2,1
+6178,Sepp Straka,5,2,0
