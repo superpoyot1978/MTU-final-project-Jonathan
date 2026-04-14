@@ -1,7 +1,7 @@
  #MOC starter code for main function US Golf Master's Leaderboard Project
 def main():
     filename = "golf_masters.txt"
-    golfer_ids, player_names, par_score, cut_status = read_file(golfers.txt)
+    golfer_ids, player_names, par_score, cut_status = read_file(golfer.txt)
     choice = ""
 while choice != "8":
     print("\nMenu")
@@ -24,15 +24,10 @@ while choice != "8":
     elif choice == "4":
     # update cut status
     elif choice == "5":
-# TODO in exam
-elif choice == "6":
-# TODO in exam
-elif choice == '7':
-# TODO in exam
-elif choice == "8":
+#
 # save data and quit
 print("Data saved. Goodbye.")
 else:
-print("Invalid choice.")
-if __name__ == '__main__':
-main()
+    print("Invalid choice.")
+    if __name__ == '__main__':
+    main()
