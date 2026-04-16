@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1feecd9d-3ecd-4044-9a0d-1c8a896c09a4" name="Changes" comment="commit test github">
-      <change afterPath="$PROJECT_DIR$/COMP1D_Project_Spec_2026.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golf_masters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/golf_masters.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golf_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/golf_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
