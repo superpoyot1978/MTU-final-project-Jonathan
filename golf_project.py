@@ -29,6 +29,15 @@ def read_file():
     return golfer_ids, player_names, par_score, rounds, cut_status
 
 
+#saving data function
+def save_file(golfer_ids, player_names, par_score, cut_status, rounds):
+    with open("golf_masters.txt","w") as file:
+        for i in range(len(golfer_ids)):
+            line = f"{golfer_ids[i]},{player_names[i]},{par_score[i]},{rounds[i]},{cut_status[i]}\n"
+            file.write(line)
+    print("Data saved successfully.")
+
+
 
 
 
