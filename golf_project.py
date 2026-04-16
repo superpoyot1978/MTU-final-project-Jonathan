@@ -96,6 +96,30 @@ def add_player(golfer_ids, player_names, par_score, cut_status, rounds):
     print(f"Golfer {name} added successfully.")
 
 
+#updating status
+def update_cut_status(golfer_ids, player_names, cut_status):
+    try:
+        gid = int(input("Enter Golfer ID to update cut status: "))
+    except ValueError:
+        print("Invalid input. Must be an integer.")
+        return
+    if gid not in golfer_ids:
+        print("ID not found")
+        return
+
+    #varibles and touch up
+    index = golfer_ids.index(gid)
+    status = cut_status[index]
+    name = player_names[index]
+    status_str = "made the cut" if status == 1 else "missed the cut"
+    print(f"{name} has {status_str}.")
+    choice = input("Do you want to change this? (y/n): ").lower()
+    if choice == "y":
+        cut_status[index] = 0 if status == 1 else 1
+        print("Cut status updated successfully.")
+    else:
+        print("No changes made.")
+
 
 
 
