@@ -1,9 +1,38 @@
-<<<<<<< HEAD
- #MOC starter code for main function US Golf Master's Leaderboard Project
+
+
  #test
  #github test1
  #fja;sldkfjsldkfjsdfj
-def main():
+# ---------- File Functions ----------
+#read golf masters txt file to have referance data.
+def read_file():
+    golfer_ids = []
+    player_names = []
+    par_score = []
+    rounds = []
+    cut_status = []
+
+    try:
+        with open("golf_masters.txt", "r") as file:
+
+            for line in file:
+                line = line.strip()
+                if line:  # skip empty lines
+                    data = line.split(",")
+                    golfer_ids.append(int(data[0]))
+                    player_names.append(data[1])
+                    par_score.append(int(data[2]))
+                    rounds.append(int(data[3]))
+                    cut_status.append(int(data[4]))
+    except FileNotFoundError:
+        print(f"File 'golf_masters.txt' not found. Starting with empty dataset.")
+    return golfer_ids, player_names, par_score, rounds, cut_status
+
+
+
+
+
+"""def main():
     filename = "golf_masters.txt"
     golfer_ids, player_names, par_score, cut_status = read_file(golfer.txt)
     choice = ""
@@ -68,4 +97,4 @@ else:
     print("Invalid choice.")
     if __name__ == '__main__':
 >>>>>>> e8c03bbda478e3723cd686f94e5796ab0962347f
-    main()
+    main()"""
