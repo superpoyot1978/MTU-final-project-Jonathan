@@ -49,6 +49,52 @@ def view_leaderboard(golfer_ids, player_names, par_score, cut_status, rounds):
         print("{:<6} {:<20} {:<5} {:<6} {:<2}".format(golfer_ids[i], player_names[i], par_str, rounds[i], cut_emoji))
     print()
 
+#delete player/s
+#gid = golfer id
+def delete_player(golfer_ids, player_names, par_score, cut_status, rounds):
+    try:
+        gid = int(input("Enter Golfer ID to delete: "))
+    except ValueError:
+        print("Invalid input. Must be an integer.")
+        return
+
+    if gid in golfer_ids:
+        index = golfer_ids.index(gid)
+        # remove player info from all lists
+        golfer_ids.pop(index)
+        player_names.pop(index)
+        par_score.pop(index)
+        cut_status.pop(index)
+        rounds.pop(index)
+        print(f"Golfer ID {gid} deleted successfully.")
+    else:
+        print("Golfer ID not found.")
+
+#adding player/s
+def add_player(golfer_ids, player_names, par_score, cut_status, rounds):
+    try:
+        gid = int(input("Enter new Golfer ID: "))
+    except ValueError:
+        print("Error,please input a valid id")
+        return
+    if gid in golfer_ids:
+        print("Golfer ID already exits.")
+        return
+
+    name = input("Enter Player Name: ")
+    try:
+        par = int(input("Enter Score Relative to Par (can be negative): "))
+    except ValueError:
+        print("Invalid input. Must be an integer.")
+        return
+
+    golfer_ids.append(gid)
+    player_names.append(name)
+    par_score.append(par)
+    rounds.append(2)  # default round = 2
+    cut_status.append(1)  # default made cut
+    print(f"Golfer {name} added successfully.")
+
 
 
 
