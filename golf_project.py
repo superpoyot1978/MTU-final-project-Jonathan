@@ -37,6 +37,18 @@ def save_file(golfer_ids, player_names, par_score, cut_status, rounds):
             file.write(line)
     print("Data saved successfully.")
 
+# ---------- Menu Functions ----------
+#function to view leaderboard table
+def view_leaderboard(golfer_ids, player_names, par_score, cut_status, rounds):
+    print("\n# Leaderboard after Round 2\n")
+    print("{:<6} {:<20} {:<5} {:<6} {:<2}".format("ID", "Player", "Par", "Round", "Cut"))
+    print("-"*45)
+    for i in range(len(golfer_ids)):
+        par_str = f"+{par_score[i]}" if par_score[i] > 0 else f"{par_score[i]}" if par_score[i] < 0 else "0"
+        cut_emoji = "\U0001F601" if cut_status[i] == 1 else "\u2639\ufe0f"
+        print("{:<6} {:<20} {:<5} {:<6} {:<2}".format(golfer_ids[i], player_names[i], par_str, rounds[i], cut_emoji))
+    print()
+
 
 
 
