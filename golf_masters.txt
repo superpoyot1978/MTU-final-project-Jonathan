@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 5012,Scottie Scheffler,-4,2,1
 5341,Rory McIlroy,-4,2,1
 5897,Jon Rahm,3,2,1
@@ -15,7 +15,6 @@
 6156,Shane Lowry,0,2,1
 6167,Tommy Fleetwood,-2,2,1
 6178,Sepp Straka,5,2,0
-=======
 5012,Scottie Scheffler,-4,2,1
 5341,Rory McIlroy,-4,2,1
 5897,Jon Rahm,3,2,1
@@ -32,4 +31,4 @@
 6156,Shane Lowry,0,2,1
 6167,Tommy Fleetwood,-2,2,1
 6178,Sepp Straka,5,2,0
->>>>>>> e8c03bbda478e3723cd686f94e5796ab0962347f
+
