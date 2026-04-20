@@ -1,8 +1,8 @@
 
 
- #test
- #github test1
- #fja;sldkfjsldkfjsdfj
+
+
+
 # ---------- File Functions ----------
 #read golf masters txt file to have all the golfer data
 def read_file():

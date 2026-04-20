@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1feecd9d-3ecd-4044-9a0d-1c8a896c09a4" name="Changes" comment="commit test github">
+    <list default="true" id="1feecd9d-3ecd-4044-9a0d-1c8a896c09a4" name="Changes" comment="edited out some mistakes in  golf_masters.txt .Also finished up the starter code and polished it.I ran the code a couple of times and all seemed to work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golf_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/golf_project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testy.py" beforeDir="false" afterPath="$PROJECT_DIR$/testy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "superpoyot1978"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;superpoyot1978&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/superpoyot1978/MTU-final-project-Jonathan.git",
-    "accountId": "079bb75c-68ee-4b05-94c9-879183c57976"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/superpoyot1978/MTU-final-project-Jonathan.git&quot;,
+    &quot;accountId&quot;: &quot;079bb75c-68ee-4b05-94c9-879183c57976&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -43,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.golf_project.executor": "Run",
-    "Python.testy.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.golf_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testy.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -126,7 +127,63 @@
       <option name="project" value="LOCAL" />
       <updated>1776335299021</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Started with creating the golf_masters.txt and then writing the code to read the txt file and it also seemed like a good place to start the project. Grayed out the main function as i want to focus on the individual functions first, ie i wanted to make the function code before i move on to main.">
+      <option name="closed" value="true" />
+      <created>1776336773366</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776336773366</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Started with creating the golf_masters.txt and then writing the code to read the txt file and it also seemed like a good place to start the project. Grayed out the main function as i want to focus on the individual functions first, ie i wanted to make the function code before i move on to main.">
+      <option name="closed" value="true" />
+      <created>1776336866476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776336866476</updated>
+    </task>
+    <task id="LOCAL-00010" summary="made function to save the file and any changes the user may have made....hopefully">
+      <option name="closed" value="true" />
+      <created>1776337464504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776337464504</updated>
+    </task>
+    <task id="LOCAL-00011" summary="moved on to the menu functions and started out with the leaderboard view first. I googled the Unicode for smiling and frowning emojis as i leanrt about implementing Unicode last semsester.">
+      <option name="closed" value="true" />
+      <created>1776356013460</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1776356013460</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added deleting and adding functions. I created a varible called gid to stand in for golfer ids.">
+      <option name="closed" value="true" />
+      <created>1776356703081</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1776356703081</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added update cut status function, realized that making gid was very handy as i can just keep resuing it for the other functions.">
+      <option name="closed" value="true" />
+      <created>1776357485183</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776357485183</updated>
+    </task>
+    <task id="LOCAL-00014" summary="edited out some mistakes in  golf_masters.txt .Also finished up the starter code and polished it.I ran the code a couple of times and all seemed to work">
+      <option name="closed" value="true" />
+      <created>1776718462582</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1776718462582</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +202,12 @@
     <MESSAGE value="start of project" />
     <MESSAGE value="commit test" />
     <MESSAGE value="commit test github" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit test github" />
+    <MESSAGE value="Started with creating the golf_masters.txt and then writing the code to read the txt file and it also seemed like a good place to start the project. Grayed out the main function as i want to focus on the individual functions first, ie i wanted to make the function code before i move on to main." />
+    <MESSAGE value="made function to save the file and any changes the user may have made....hopefully" />
+    <MESSAGE value="moved on to the menu functions and started out with the leaderboard view first. I googled the Unicode for smiling and frowning emojis as i leanrt about implementing Unicode last semsester." />
+    <MESSAGE value="added deleting and adding functions. I created a varible called gid to stand in for golfer ids." />
+    <MESSAGE value="added update cut status function, realized that making gid was very handy as i can just keep resuing it for the other functions." />
+    <MESSAGE value="edited out some mistakes in  golf_masters.txt .Also finished up the starter code and polished it.I ran the code a couple of times and all seemed to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited out some mistakes in  golf_masters.txt .Also finished up the starter code and polished it.I ran the code a couple of times and all seemed to work" />
   </component>
 </project>
